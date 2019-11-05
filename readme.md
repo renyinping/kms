@@ -2,3 +2,5 @@ docker run --name kms -p 1688:1688 -tdi yinping/kms:20191105 python /opt/py-kms-
 
 docker exec -it kms sh
 
+docker container update --restart=always kms
+
